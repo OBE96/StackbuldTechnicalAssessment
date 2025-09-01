@@ -5,8 +5,6 @@ namespace StackbuldTechnicalAssessment.Application.Features.Products.Dtos
 {
     public class ProductCreationDto
     {
-        [JsonPropertyName("id")]
-        public Guid Id { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
@@ -21,5 +19,10 @@ namespace StackbuldTechnicalAssessment.Application.Features.Products.Dtos
 
         [JsonPropertyName("stockquantity")]
         public int StockQuantity { get; set; }
+    }
+
+    public class AddMultipleProductDto
+    {
+        public List<ProductCreationDto> Products { get; set; }
     }
 }

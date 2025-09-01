@@ -14,10 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Products\Commands\" />
-    <Folder Include="Features\Products\Handlers\" />
-    <Folder Include="Features\Products\Mappers\" />
-    <Folder Include="Features\Products\Queries\" />
+    <ProjectReference Include="..\StackbuldTechnicalAssessment.Domain\StackbuldTechnicalAssessment.Domain.csproj" />
+    <ProjectReference Include="..\StackbuldTechnicalAssessment.Infrastructure\StackbuldTechnicalAssessment.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
