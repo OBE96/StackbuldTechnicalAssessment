@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackbuldTechnicalAssessment.Web", "StackbuldTechnicalAssessment\StackbuldTechnicalAssessment.Web.csproj", "{669EFA0C-380B-43D7-AB0E-9EABB5F5146F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackbuldTechnicalAssessment.Application", "StackbuldTechnicalAssessment.Application\StackbuldTechnicalAssessment.Application.csproj", "{9E79ACB7-74B0-475D-BE8D-33154AAEE9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackbuldTechnicalAssessment.Infrastructure", "StackbuldTechnicalAssessment.Infrastructure\StackbuldTechnicalAssessment.Infrastructure.csproj", "{9F942E13-3A83-46DF-B75E-DF0EF62E933D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackbuldTechnicalAssessment.Domain", "StackbuldTechnicalAssessment.Domain\StackbuldTechnicalAssessment.Domain.csproj", "{0E19E449-407C-4D6B-ABFD-0D244E604FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackbuldTechnicalAssessment.Application.Test", "StackbuldTechnicalAssessment.Application.Test\StackbuldTechnicalAssessment.Application.Test.csproj", "{83CD6C7E-FF59-4D7D-AED8-B9793AD085C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{669EFA0C-380B-43D7-AB0E-9EABB5F5146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669EFA0C-380B-43D7-AB0E-9EABB5F5146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669EFA0C-380B-43D7-AB0E-9EABB5F5146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669EFA0C-380B-43D7-AB0E-9EABB5F5146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E79ACB7-74B0-475D-BE8D-33154AAEE9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E79ACB7-74B0-475D-BE8D-33154AAEE9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E79ACB7-74B0-475D-BE8D-33154AAEE9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E79ACB7-74B0-475D-BE8D-33154AAEE9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F942E13-3A83-46DF-B75E-DF0EF62E933D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F942E13-3A83-46DF-B75E-DF0EF62E933D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F942E13-3A83-46DF-B75E-DF0EF62E933D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F942E13-3A83-46DF-B75E-DF0EF62E933D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E19E449-407C-4D6B-ABFD-0D244E604FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E19E449-407C-4D6B-ABFD-0D244E604FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E19E449-407C-4D6B-ABFD-0D244E604FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E19E449-407C-4D6B-ABFD-0D244E604FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CD6C7E-FF59-4D7D-AED8-B9793AD085C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CD6C7E-FF59-4D7D-AED8-B9793AD085C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CD6C7E-FF59-4D7D-AED8-B9793AD085C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CD6C7E-FF59-4D7D-AED8-B9793AD085C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
