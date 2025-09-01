@@ -12,12 +12,12 @@ namespace StackbuldTechnicalAssessment.Application.Features.Products.Handlers
     {
         private readonly IRepository<Product> _productRepository;
         private readonly IMapper _mapper;
-    
+
         public DeleteProductByIdCommandHandler(IRepository<Product> productRepository, IMapper mapper)
         {
             _productRepository = productRepository;
             _mapper = mapper;
-           
+
         }
         public async Task<ProductDto> Handle(DeleteProductByIdCommand request, CancellationToken cancellationToken)
         {

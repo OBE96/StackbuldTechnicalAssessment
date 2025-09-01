@@ -18,7 +18,7 @@ namespace StackbuldTechnicalAssessment.Application.Features.Products.Handlers
         }
         public async Task<ProductsDto> Handle(AddProductsCommand request, CancellationToken cancellationToken)
         {
-           var products = _mapper.Map<List<Product>>(request.productBody);
+            var products = _mapper.Map<List<Product>>(request.productBody);
 
             foreach (var product in products)
             {

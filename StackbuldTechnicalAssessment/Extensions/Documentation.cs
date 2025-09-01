@@ -9,7 +9,7 @@ namespace StackbuldTechnicalAssessment.Web.Extensions
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Stackbuld Technical Assessment", Version = "v1.0", Description = "API for Stackbuld Technical Assessment" });
-               
+
             });
         }
     }

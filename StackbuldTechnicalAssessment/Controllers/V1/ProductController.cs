@@ -16,9 +16,9 @@ namespace StackbuldTechnicalAssessment.Web.Controllers.V1
         {
             _mediator = mediator;
         }
-   
 
-      /// <summary>
+
+        /// <summary>
         /// Get all product endpoint
         /// </summary>
         /// <returns></returns>

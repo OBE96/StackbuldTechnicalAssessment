@@ -7,6 +7,6 @@
 
         public ICollection<OrderDetails> OrderDetails { get; set; } = new List<OrderDetails>();
 
-       
+
     }
 }
