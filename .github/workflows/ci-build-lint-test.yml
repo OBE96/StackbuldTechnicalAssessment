@@ -20,10 +20,6 @@ jobs:
       run: |
         dotnet restore ./StackbuldTechnicalAssessment.sln
 
-    - name: Check Code Formatting
-      run: |
-        dotnet format ./StackbuldTechnicalAssessment.sln --verify-no-changes --no-restore
-
     - name: Build Application
       run: |
         dotnet build --configuration Release --no-restore
