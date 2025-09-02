@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using StackbuldTechnicalAssessment.Infrastructure.Context;
 using StackbuldTechnicalAssessment.Infrastructure.Repository.Interface;
 using StackbuldTechnicalAssessment.Infrastructure.Repository;
+using StackbuldTechnicalAssessment.Infrastructure.Services;
+using StackbuldTechnicalAssessment.Infrastructure.Services.Interfaces;
 
 namespace StackbuldTechnicalAssessment.Infrastructure
 {
@@ -14,6 +16,7 @@ namespace StackbuldTechnicalAssessment.Infrastructure
             services.AddScoped<DbContext, ApplicationDbContext>();
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connectionString));
+            services.AddScoped<ITransactionService, TransactionService>();
 
 
             return services;
