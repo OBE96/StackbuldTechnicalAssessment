@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using StackbuldTechnicalAssessment.Domain.Entities;
 using StackbuldTechnicalAssessment.Infrastructure.Context;
 using StackbuldTechnicalAssessment.Infrastructure.Repository.Interface;
@@ -107,6 +108,10 @@ namespace StackbuldTechnicalAssessment.Infrastructure.Repository
             return queryShaper(query);
         }
 
+        public IQueryable<T> Query()
+        {
+            return _context.Set<T>().AsQueryable();
+        }
         public Task UpdateAsync(T entity)
         {
             var updated = _context.Set<T>().Update(entity);

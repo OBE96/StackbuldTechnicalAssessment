@@ -5,8 +5,6 @@ namespace StackbuldTechnicalAssessment.Application.Features.Products.Dtos
 {
     public class UpdateProductDto
     {
-        [JsonPropertyName("id")]
-        public Guid Id { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
